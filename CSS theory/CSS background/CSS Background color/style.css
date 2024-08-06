@@ -1,0 +1,22 @@
+body {
+  background-color: aqua;
+}
+
+.box {
+  color: honeydew;
+  width: 250px;
+  height: 250px;
+  /* mặc định bgc: transparent */
+  background-color: transparent;
+  /* dùng tên màu */
+  background-color: red;
+  /* Kênh rgb */
+  background-color: rgba(0, 0, 255, 0.399);
+  /* màu hex */
+  background-color: #ccc;
+  /* Dùng color hiện tại */
+  background-color: currentColor;
+  margin: 45px;
+  padding: 20px;
+  border: 20px dotted red;
+}

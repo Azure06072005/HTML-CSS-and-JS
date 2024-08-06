@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attribute Selectors in CSS</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      th,
+      td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Attribute Selectors in CSS</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Selector</th>
+          <th>Description</th>
+          <th>Example</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>[attribute]</td>
+          <td>Selects elements with the specified attribute.</td>
+          <td><code>[type]</code></td>
+        </tr>
+        <tr>
+          <td>[attribute="value"]</td>
+          <td>Selects elements with the specified attribute and value.</td>
+          <td><code>[type="text"]</code></td>
+        </tr>
+        <tr>
+          <td>[attribute~="value"]</td>
+          <td>
+            Selects elements with the specified attribute containing a specified
+            word (space-separated list).
+          </td>
+          <td><code>[title~="flower"]</code></td>
+        </tr>
+        <tr>
+          <td>[attribute|="value"]</td>
+          <td>
+            Selects elements with the specified attribute starting with a
+            specified value (hyphen-separated).
+          </td>
+          <td><code>[lang|="en"]</code></td>
+        </tr>
+        <tr>
+          <td>[attribute^="value"]</td>
+          <td>
+            Selects elements with the specified attribute starting with a
+            specified value.
+          </td>
+          <td><code>[href^="https"]</code></td>
+        </tr>
+        <tr>
+          <td>[attribute$="value"]</td>
+          <td>
+            Selects elements with the specified attribute ending with a
+            specified value.
+          </td>
+          <td><code>[src$=".jpg"]</code></td>
+        </tr>
+        <tr>
+          <td>[attribute*="value"]</td>
+          <td>
+            Selects elements with the specified attribute containing a specified
+            value.
+          </td>
+          <td><code>[class*="button"]</code></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

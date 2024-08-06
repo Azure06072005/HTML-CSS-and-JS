@@ -1,0 +1,14 @@
+.box {
+  height: 100vh;
+  background-image: url(./image/model.png), url(./image/image.png);
+  /* bỏ hiển thị hình nền */
+  /* background-image: none; */
+  /* không lặp lại ảnh */
+  background-repeat: no-repeat;
+  /* lặp lại ảnh theo chiều ngang */
+  background-repeat: repeat-x;
+  /* lặp lại ảnh theo chiều dọc */
+  background-repeat: repeat-y;
+  /* lặp lại ảnh cả x lẫn y */
+  background-repeat: repeat;
+}

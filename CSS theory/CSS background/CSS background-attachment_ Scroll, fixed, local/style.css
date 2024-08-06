@@ -1,0 +1,17 @@
+.box {
+  height: 300px;
+  background-image: url(./image/gilley-aguilar-v3LPa_P2Atg-unsplash.jpg);
+  background-size: contain;
+  background-repeat: no-repeat; /*Không lặp lại ảnh nữa*/
+  background-attachment: fixed;
+}
+
+.textlocal {
+  height: 200px;
+  width: 70%;
+  overflow: auto;
+  background-image: url(./image/gilley-aguilar-v3LPa_P2Atg-unsplash.jpg);
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat; /*Không lặp lại ảnh nữa*/
+}

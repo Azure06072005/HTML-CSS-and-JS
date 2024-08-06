@@ -1,0 +1,32 @@
+/* .parent {
+  font-size: 10px;
+}
+
+.child {
+  font-size: 2rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: lightcoral;
+  border: 12px solid blue;
+}
+
+html {
+  font-size: 100px;
+} */
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 4.4rem;
+}
+
+p {
+  font-size: 2.3rem;
+}
+
+.box {
+  width: 20rem;
+  height: 15rem;
+  background-color: mediumorchid;
+}

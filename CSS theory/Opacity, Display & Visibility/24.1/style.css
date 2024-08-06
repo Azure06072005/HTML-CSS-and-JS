@@ -1,0 +1,9 @@
+body {
+  background-image: url(../image/taylor-finklea-X_2IwzrDotk-unsplash.jpg);
+}
+h2 {
+  color: aqua;
+  opacity: 1;
+  /* display: none; */
+  visibility: hidden;
+}

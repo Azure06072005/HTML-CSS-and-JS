@@ -1,0 +1,21 @@
+.noti {
+  /* phông size mặc định là 16px => khi ta sửa dụng rem thì kết quả thu được là 
+    kq = 16px * rem; */
+  margin: 5rem;
+  /* 10 * 16px */
+  font-size: 10rem;
+  color: violet;
+  /* background-color: darkgray; */
+  position: relative;
+}
+
+.noti_number {
+  font-size: 4rem;
+  padding: 0.5rem;
+  background-color: red;
+  color: aliceblue;
+  clip-path: circle(45%);
+  position: absolute;
+  left: 110px;
+  top: -25px;
+}

@@ -1,0 +1,35 @@
+.container {
+  height: 150px;
+  display: flex;
+  background-color: cyan;
+  /* flex-wrap: wrap; */
+  /* align-items: flex-start; */
+  /* muốn để thanh cuốn ngay dưới container ta sử dụng overflow: auto */
+  overflow: auto;
+}
+
+.box {
+  background-color: burlywood;
+  border: 1px solid black;
+  width: 30%;
+  /* flex-shrink: 0; */
+}
+
+.box1,
+.box2 {
+  flex-shrink: 0;
+}
+
+.container2 {
+  height: 150px;
+  display: flex;
+  background-color: plum;
+  flex-direction: column;
+}
+
+.bin {
+  border: 1px solid black;
+  width: 15%;
+  flex-basis: 50%;
+  background-color: greenyellow;
+}

@@ -1,0 +1,32 @@
+.box {
+  width: 100px;
+  height: 100px;
+  color: aliceblue;
+  /* căn giữa text giữa các khối */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 {
+  background: red;
+  /* background-color: red; */
+}
+
+/* dịch chuyển cách lề được khai báo một khoảng */
+
+.box2 {
+  background: blueviolet;
+  position: relative;
+  left: 100px;
+}
+
+.box3 {
+  background: darkturquoise;
+  position: relative;
+  left: 200px;
+}
+
+h1 {
+  background: plum;
+}

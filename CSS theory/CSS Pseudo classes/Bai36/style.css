@@ -1,0 +1,25 @@
+/* /* p:first-child {
+  color: red;
+  font-size: 30px;
+}
+
+p:last-child {
+  color: aqua;
+  font-size: 35px;
+} 
+
+p:nth-child(3){
+    color: khaki;
+} */
+
+/* p:nth-child(2n + 1) {
+  color: gold;
+} */
+
+/* p:nth-last-child(odd){
+    color: teal;
+} */
+
+p:only-child {
+  color: springgreen;
+}

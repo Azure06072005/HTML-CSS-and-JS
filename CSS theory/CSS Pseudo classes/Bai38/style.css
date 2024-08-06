@@ -1,0 +1,29 @@
+/* .top:not(p) {
+  background-color: yellow;
+} */
+/* .top:not(:first-of-type) {
+  background-color: red;
+} */
+
+/* Universal selector */
+* {
+  color: red !important;
+}
+
+/* element selector */
+h1 {
+  color: blue;
+}
+
+/* class - pseudo-class */
+.demo {
+  color: deeppink;
+}
+
+/* id */
+#theh1 {
+  color: mediumslateblue;
+}
+
+/* Inline style */
+/* !important */

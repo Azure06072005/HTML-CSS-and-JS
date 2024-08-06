@@ -1,0 +1,20 @@
+.box {
+  background-color: burlywood;
+  border: 1px solid black;
+}
+
+.container {
+  display: flex;
+  background-color: cyan;
+  /* sắp theo hàng */
+  flex-direction: row;
+  /* sắp theo hàng đảo ngược */
+  flex-direction: row-reverse;
+  /* sắp theo cột */
+  /* flex-direction: column; */
+  /* sắp theo cột đảo ngược */
+  /* flex-direction: column-reverse; */
+  /* lưu ý: khi sử dụng justify-content thì ta làm ngược lại (Chiều từ phải qua trái so với tiêu chuẩn); */
+  justify-content: flex-end;
+  flex-flow: wrap column-reverse;
+}

@@ -1,0 +1,35 @@
+/* cân text giữa các khối */
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  /* ở trạng thái mặc định, chưa set z-index thì phần tử viết sau sẽ nằm trên */
+  /* position: absolute; */
+  position: relative;
+}
+
+.box1 {
+  height: 300px;
+  width: 300px;
+  background: red;
+  top: 50px;
+  z-index: 2;
+  /* z-index: 1; */
+}
+
+/* Lưu ý: z-index set theo thứ tự người dùng đặt và ưu tiên đặt trước */
+.box2 {
+  height: 200px;
+  width: 200px;
+  background: blue;
+  z-index: 1;
+}
+
+.box3 {
+  height: 100px;
+  width: 100px;
+  background: green;
+  bottom: 50px;
+  z-index: 6;
+}

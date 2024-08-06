@@ -1,0 +1,40 @@
+p::first-line {
+  color: red;
+}
+
+p::first-letter {
+  font-size: 40px;
+  color: fuchsia;
+}
+
+span {
+  /* Sử dụng được ::first-line */
+  display: inline-block;
+  display: block;
+  /* Không sử dụng được ::first-line */
+  display: inline;
+}
+
+span::first-line {
+  color: rgb(15, 15, 15);
+  background-color: fuchsia;
+}
+
+*::selection {
+  color: aqua;
+  background-color: hotpink;
+}
+
+li::marker {
+  color: firebrick;
+  font-size: 20px;
+}
+
+.box::before {
+  content: "Hế lô mấy cưng";
+}
+
+.box::after {
+  content: "Hế lô mấy cưng";
+  color: red;
+}

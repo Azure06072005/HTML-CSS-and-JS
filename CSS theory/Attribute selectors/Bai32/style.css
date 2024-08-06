@@ -1,0 +1,23 @@
+p[href] {
+  color: red;
+}
+
+[target="_blank"] {
+  color: rgb(168, 0, 252);
+}
+
+[title~="daa.uit.edu.vnd"] {
+  color: gold;
+}
+
+[title*="daa.uit.edu.vn"] {
+  color: lightblue;
+}
+
+[title^="pic"] {
+  color: dodgerblue;
+}
+
+[title$="pic"] {
+  color: deeppink;
+}

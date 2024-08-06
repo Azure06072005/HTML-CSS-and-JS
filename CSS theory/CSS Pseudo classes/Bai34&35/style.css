@@ -1,0 +1,25 @@
+/* 3. Tác dụng lên selector khi chưa click vào truy cập */
+.click_me:link {
+  color: chartreuse;
+}
+
+/* 4. Tác dụng lên selector khi đã click chuột vào truy cập */
+.click_me:visited {
+  color: red;
+}
+
+.div_elm:empty {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+.div_elm {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+h2:target {
+  color: blue;
+}

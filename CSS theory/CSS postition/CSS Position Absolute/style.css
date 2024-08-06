@@ -1,0 +1,42 @@
+.box {
+  width: 100px;
+  height: 100px;
+  color: aliceblue;
+  /* căn giữa text giữa các khối */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background: hotpink;
+  position: relative;
+}
+
+.content {
+  background: silver;
+  width: 400px;
+  margin: 40px;
+  /* position: relative; */
+}
+
+.box1 {
+  background: red;
+}
+
+/* dịch chuyển cách lề được khai báo một khoảng */
+
+.box2 {
+  background: blueviolet;
+  position: absolute;
+  right: 0%;
+  top: 0;
+}
+
+.box3 {
+  background: darkturquoise;
+}
+
+h1 {
+  background: plum;
+}

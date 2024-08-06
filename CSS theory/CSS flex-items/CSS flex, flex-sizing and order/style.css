@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+}
+
+.box {
+  /* width: 100px;
+  flex-basis: 200px;
+  max-width: 100px; */
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 100px;
+  /* flex: flex-grow|flex-shrink|flex-basis */
+  flex: 0 1 100px;
+}
+
+.box1 {
+  background-color: cyan;
+}
+.box2 {
+  order: 1;
+  background-color: royalblue;
+}
+.box3 {
+  order: 2;
+  background-color: rgb(9, 255, 0);
+}
+.box4 {
+  order: 3;
+  background-color: rgb(255, 0, 183);
+}

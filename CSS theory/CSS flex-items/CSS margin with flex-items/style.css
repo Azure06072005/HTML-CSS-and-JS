@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  background-color: cyan;
+  height: 150px;
+  flex-direction: column;
+  /* trạng thái mặc định là align-items: stretch */
+}
+
+.box1 {
+  background-color: lightcoral;
+}
+.box2 {
+  background-color: rgb(92, 253, 200);
+  /* margin-left: auto; */
+}
+.box3 {
+  background-color: rgb(235, 227, 113);
+}
+.box4 {
+  background-color: rgb(95, 139, 221);
+}
+
+.container2 {
+  height: 150px;
+  background-color: deepskyblue;
+  display: flex;
+  /* justify-content: center;
+  align-items: center;
+} */
+
+.fa-youtube {
+    /* tự động căn giữa */
+    margin: auto;
+  font-size: 1.5rem;
+  color: red;
+}

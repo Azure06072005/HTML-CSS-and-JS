@@ -1,0 +1,20 @@
+h1 {
+  width: 200px;
+  background-color: pink;
+  /* white-space: nowrap => không xuống dòng (kể cả chạm tới lề); */
+  white-space: nowrap;
+  /* Overflow: hidden => ẩn nội dung thừa */
+  overflow: hidden;
+  /* text-overflow: ellipsis => Hiện thị dấu ... */
+  text-overflow: ellipsis;
+}
+
+/* Làm dấu ... ở dòng thứ 2, thứ 3...  */
+h2 {
+  background-color: aqua;
+  overflow: hidden;
+  /* -webkit-line-clamp: 1 => nội dung không vượt quá 1 dòng */
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}

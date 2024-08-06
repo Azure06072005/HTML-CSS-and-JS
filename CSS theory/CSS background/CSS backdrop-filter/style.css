@@ -1,0 +1,24 @@
+body {
+  background: url(./image/bg.jpg);
+  /* Ảnh vừa khớp khung hình */
+  background-size: cover;
+}
+
+.box {
+  margin-top: 100px;
+  height: 100px;
+  /* width: 500px; */
+  background-color: rgba(189, 194, 183, 0.316);
+  backdrop-filter: blur(5px) contrast(90%);
+  -webkit-backdrop-filter: blur(5px) contrast(90%);
+}
+/* Kiểm tra trình duyệt có xài được thuộc tính này hay không */
+
+@supports (backdrop-filter: blur(5px) contrast(90%)) or
+  (-webkit-backdrop-filter: blur(5px) contrast(90%)) {
+  .box {
+    background-color: rgba(189, 194, 183, 0.316);
+    backdrop-filter: blur(5px) contrast(90%);
+    -webkit-backdrop-filter: blur(5px) contrast(90%);
+  }
+}

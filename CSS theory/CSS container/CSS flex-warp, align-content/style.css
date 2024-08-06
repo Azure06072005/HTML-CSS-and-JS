@@ -1,0 +1,15 @@
+.container {
+  height: 400px;
+  display: flex;
+  background-color: cyan;
+  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  /* flex-wrap: wrap-reverse; */
+  align-content: stretch;
+}
+
+.box {
+  width: 30%;
+  background-color: blue;
+  border: 1px solid black;
+}

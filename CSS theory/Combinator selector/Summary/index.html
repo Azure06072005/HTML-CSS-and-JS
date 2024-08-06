@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Combination Selectors in CSS</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      th,
+      td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Combination Selectors in CSS</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Selector</th>
+          <th>Description</th>
+          <th>Example</th>
+          <th>Meaning</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Descendant Selector (space)</td>
+          <td>
+            Selects all elements that are descendants of a specified element.
+          </td>
+          <td><code>div p</code></td>
+          <td>Chọn tất cả thẻ là con của thẻ được khởi tạo</td>
+        </tr>
+        <tr>
+          <td>Child Selector (&gt;)</td>
+          <td>
+            Selects all elements that are direct children of a specified
+            element.
+          </td>
+          <td><code>ul &gt; li</code></td>
+          <td>Chọn tất cả thẻ là con của thẻ được khởi tạo trước đó</td>
+        </tr>
+        <tr>
+          <td>Adjacent Sibling Selector (+)</td>
+          <td>
+            Selects an element that is directly after another specified element.
+          </td>
+          <td><code>h1 + p</code></td>
+          <td>Chọn thẻ đứng ngay sau</td>
+        </tr>
+        <tr>
+          <td>General Sibling Selector (~)</td>
+          <td>
+            Selects all elements that are siblings of a specified element.
+          </td>
+          <td><code>h1 ~ p</code></td>
+          <td>Chọn tất cả thẻ đứng sau (không cần sát)</td>
+        </tr>
+        <tr>
+          <td>Group Selector (,)</td>
+          <td>Applies the same styles to multiple elements.</td>
+          <td><code>h1, h2, h3</code></td>
+          <td>Chọn tất cả các thẻ có gắn tên</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

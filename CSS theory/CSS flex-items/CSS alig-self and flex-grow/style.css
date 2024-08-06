@@ -1,0 +1,52 @@
+.container {
+  height: 150px;
+  display: flex;
+  background-color: cyan;
+  /* mặc định đã được kéo dãn nên phương thức bên dưới không có cũng được */
+  align-items: stretch;
+  align-items: flex-start;
+}
+
+.box {
+  background-color: lightcoral;
+  border: 1px solid black;
+}
+
+/* chỉ định một block  */
+.box2 {
+  align-self: center;
+}
+
+.box3 {
+  align-self: flex-end;
+}
+
+.container2 {
+  height: 150px;
+  background-color: dodgerblue;
+  display: flex;
+  align-items: flex-start;
+}
+
+.bin {
+  background-color: blueviolet;
+  border: 1px solid black;
+  /* flex-grow: 1; */
+}
+
+.bin1,
+.bin6 {
+  flex-grow: 4;
+}
+
+.bin2,
+.bin5 {
+  flex-grow: 3;
+  align-self: flex-end;
+}
+
+.bin3,
+.bin4 {
+  align-self: center;
+  flex-grow: 2;
+}

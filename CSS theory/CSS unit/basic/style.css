@@ -1,0 +1,12 @@
+h2 {
+  width: 120px;
+  height: 80px;
+  font-size: 30px;
+  color: brown;
+  background-color: darkcyan;
+}
+
+p {
+  width: 50%;
+  background-color: fuchsia;
+}

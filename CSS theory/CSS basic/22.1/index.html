@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inline, internal, external CSS tutorial for web development</title>
+  </head>
+  <body>
+    <p>
+      1. Tổng quan về CSS <br />
+      CSS (Cascading Style Sheets): <br />
+      -> là một ngôn ngữ được sử dụng để tìm và định dạng lại các phần tử được
+      tạo ra <br />
+      bởi ngôn ngữ đánh dấu (HTML) <br />
+      -> Nếu HTML đóng vai trò định dạng các phần tử trên website như việc tạo
+      ra <br />
+      các đoạn văn bản, các tiêu đề,...thì CSS sẽ giúp chúng ta có thể thêm
+      style vào các phần tử HTML đó như đổi bố cục, màu sắc trang <br />
+      đổi màu chữ, font chữ... <br />
+      2. Vị trí đặt CSS <br />
+      Có 3 nơi có thể đặt CSS: <br />
+      a. Inline (CSS nội tuyến) &lt;tag style=&quot;css&quot; /&gt;: là các viết
+      mã CSS ngay bên trong phần tử cơ bản HTML <br />
+      Nhược điểm: <br />
+      -> Khó thay đổi, mỗi lần thay đổi phải thay đổi một cách riêng lẻ <br />
+      -> Không tái sử dụng được <br />
+      -> Khó quản lý <br />
+      -> Khó tách biệt cấu trúc <br />
+      b. Internal (CSS cục bộ) &lt;style&gt; css&lt;/style&gt;: Là cách viết mã
+      CSS trong cặp thẻ style (đặt trong khối head)
+      <br />
+      Ưu điểm: <br />
+      ->Code tách biệt với phần tử, có thể áp dụng với toàn trang (như ví dụ: Áp
+      dụng với toàn bộ thẻ h1) <br />
+      c. External (CSS bên ngoài) &lt;link href=&quot;style.css&quot; /&gt;
+      <br />
+    </p>
+    <h1 style="color: rgb(0, 255, 247)">Những câu nói bất hủ</h1>
+    <p style="color: rgb(165, 42, 42)">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+      laboriosam ipsa, voluptatibus ea iure numquam tenetur officiis sed, atque
+      quia odit voluptatum commodi ad assumenda, nemo praesentium velit ratione
+      eius.
+    </p>
+    <p style="color: antiquewhite">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quisquam
+      minima veniam unde nostrum est iste obcaecati a eos earum ad dignissimos
+      laborum nihil odio molestias, nisi animi, ullam asperiores.
+    </p>
+  </body>
+</html>

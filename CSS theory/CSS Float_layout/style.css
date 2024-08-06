@@ -1,0 +1,16 @@
+.pic1 {
+  width: 200px;
+  /* float: left; */
+  float: right;
+}
+
+.pic2 {
+  width: 200px;
+  padding-right: 8px;
+  /* float: left; */
+  float: left;
+}
+
+p:last-child {
+  clear: both;
+}

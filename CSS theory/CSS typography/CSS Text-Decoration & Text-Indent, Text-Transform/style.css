@@ -1,0 +1,19 @@
+strong {
+  text-decoration: none;
+  text-decoration: underline;
+  text-decoration: line-through;
+  text-decoration: overline;
+  /* Chỉ ưu tiên thuộc tính cuối cùng, không áp dụng các thuộc tính vừa ghi */
+  text-decoration: overline line-through underline;
+}
+
+.line {
+  text-indent: 40px;
+  /* text-indent: -40px; */
+  /* Viết hoa tất cả  */
+  text-transform: uppercase;
+  /* Viết hoa chữ cái đầu */
+  text-transform: capitalize;
+  /* Viết thường tất cả */
+  text-transform: lowercase;
+}

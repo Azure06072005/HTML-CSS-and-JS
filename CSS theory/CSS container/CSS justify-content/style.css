@@ -1,0 +1,28 @@
+* {
+  font-size: 1.5rem;
+}
+
+.container {
+  display: flex;
+  justify-content: start;
+  justify-content: end;
+  justify-content: center;
+  /* cách đều nhau, sát lề  */
+  justify-content: space-between;
+  justify-content: flex-start;
+  /* khoảng trắng xung quanh mỗi phần từ đều bằng nhau */
+  justify-content: space-around;
+  /* cách đều nhau, cách cả lề */
+  justify-content: space-evenly;
+  background-color: cyan;
+  /* sử dụng justify-content: flex-start và justify-content: start; */
+  /* justify-content: start -> có thể sử dụng trong nhiều module layout khác nhau, bao gồm cả flexbox và grid */
+  /* và cũng sắp xếp cái item từ đầu của container */
+  /* justify-content: flex-start ->chỉ sử dụng trong flexbox, */
+  /* đinh nghĩa rõ ràng các item bắt đầu từ đầu của container theo chiều ngang; */
+  /* gap: 40px; */
+}
+
+.box {
+  background-color: blue;
+}

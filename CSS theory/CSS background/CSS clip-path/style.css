@@ -1,0 +1,32 @@
+.box {
+  width: 80px;
+  height: 200px;
+  margin: 0 auto;
+  background: url(./image/AnhThu_cute5.jpg) center/cover;
+  background: url(./image/AnhThu_cute9.jpg) center/cover;
+  background-position: 100% 0%;
+  /* clip-path: circle(50% at 100% 100%); */
+  /* tính toán bán kính hình tròn:
+  radius = (50% * max(width, height))
+  xác định giá trị của max(width, height)
+  từ kích thước đã cho. Trong trường hợp này,
+  .box có width: 200px và height: 500px.
+  tiến hành tính toán bán kính hình tròn:
+  radius = (50% * 500px) = 250px;
+  vậy trong trường hợp này, giá trị 50% tương ứng với 250px */
+  /* clip-path: circle(50% at 0% 0%); */
+  /* 0% 0% chính là vị trí của bức ảnh và bán kính 50% sẽ vẽ ra từ tâm vị trí ấy */
+  /* clip-path: circle(50% at 50% 50%); */
+  /* vị trí ngay tâm bức ảnh  */
+  /* clip-path: circle(50% at 0% 50%); */
+  /* vị trí ngay tâm bên trái bức ảnh */
+  /* clip-path: circle(50% at 50% 0%); */
+  /* vị trí ngay tâm bên trên bức ảnh */
+  /* clip-path: circle(50% at 100% 50%); */
+  /* vị trí ngay giữa phải bức ảnh  */
+  /* clip-path: circle(50% at 100% 100%); */
+  /* vị trí ngay phải cuối bức ảnh */
+  clip-path: inset(80px 0px 0px 0px round 15px);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 80%, 0 100%);
+  border-radius: 15px;
+}

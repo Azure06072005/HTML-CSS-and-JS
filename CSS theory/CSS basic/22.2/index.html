@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Internal & external CSS</title>
+  </head>
+  <body>
+    <a href="./">Home</a>
+    <a href="./contact.html">Contact me</a>
+    <a href="./about.html">About me</a>
+    <p>
+      b. Internal (CSS cục bộ) &lt;style&gt; css&lt;/style&gt;: Là cách viết mã
+      CSS trong cặp thẻ style (đặt trong khối head)
+      <br />
+      Ưu điểm: <br />
+      ->Code tách biệt với phần tử, có thể áp dụng với toàn trang (như ví dụ: Áp
+      dụng với toàn bộ thẻ h1) <br />
+      Nhược điểm: <br />
+      ->Vẫn khó quản lý khi dự án lớn, quá nhiều mã CSS sẽ làm tệp HTML trở nên
+      cồng kềnh <br />
+      c. External (CSS bên ngoài) &lt;link href=&quot;style.css&quot; /&gt;:
+      trong trường hợp áp dụng cho toàn bộ các file html <br />
+      nằm trên trang web, tránh việc phải copy css ra tất cả file này <br />
+      -> Là cách viết mã CSS thành 1 tệp .css quản lý riêng -> Cần khai báo
+      trong HTML để link đến tệp css -> rel="stylesheet" thông báo cho trình
+      duyệt, tải tệp CSS được chỉ định và áp dụng các
+      <br />
+    </p>
+    <h1>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+      distinctio impedit ratione, similique quam ab perspiciatis, nam est
+      cupiditate eum recusandae. Harum quod, sunt sapiente vero ipsam temporibus
+      tempora nemo.
+    </h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil asperiores
+      doloribus tempora id debitis, incidunt temporibus expedita quaerat,
+      repellendus nulla blanditiis dolore culpa a veritatis ipsum at vel fuga
+      iusto.
+    </p>
+  </body>
+</html>

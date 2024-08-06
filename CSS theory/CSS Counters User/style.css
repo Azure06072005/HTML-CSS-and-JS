@@ -1,0 +1,28 @@
+.box {
+  /* tạo 1 biến đếm, reset nó = 0 */
+  counter-reset: section;
+  padding: 30px;
+  background-color: coral;
+}
+
+h2 {
+  /* tăng biến đếm lên 1 */
+  counter-increment: section;
+  /* tạo biến đếm, và reset biến đếm thẻ h3 về 0 */
+  counter-reset: sub-section;
+}
+
+h3 {
+  counter-increment: sub-section;
+  padding-left: 30px;
+}
+
+h2::before {
+  /* Thêm trước thẻ h2 */
+  content: "Phần " counter(section) ": ";
+  color: mediumturquoise;
+}
+
+h3::before {
+  content: counter(section) "." counter(sub-section) ": ";
+}

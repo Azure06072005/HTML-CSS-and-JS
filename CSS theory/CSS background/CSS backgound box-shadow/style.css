@@ -1,0 +1,13 @@
+.box {
+  width: 150px;
+  height: 150px;
+  margin: 100px;
+  background-color: pink;
+  /* offset-x|offset-y|color */
+  /* box-shadow: 60px -16px;
+  box-shadow: 60px -16px 5px turquoise;
+  box-shadow: 60px -16px 5px 15px turquoise; */
+  box-shadow: inset 10px 10px 15px 20px;
+  /* Đổ nhiều bóng */
+  box-shadow: 160px 0 deepskyblue, 0 160px forestgreen, 160px 160px tomato;
+}

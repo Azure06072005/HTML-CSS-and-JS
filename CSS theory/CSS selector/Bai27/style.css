@@ -1,0 +1,41 @@
+p {
+  color: red;
+  font-size: 20px;
+}
+
+h1 {
+  color: blue;
+}
+
+#Line_1 {
+  color: coral;
+}
+
+#Line_2 {
+  color: darkgreen;
+}
+
+#Line_3 {
+  color: deepskyblue;
+}
+
+#Line_4 {
+  color: darkviolet;
+}
+
+#title_1 {
+  color: black;
+}
+
+.Underline {
+  color: lch(from color l c h);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.h3 {
+  color: darkcyan;
+}
+
+.myName {
+  list-style: circle;
+}

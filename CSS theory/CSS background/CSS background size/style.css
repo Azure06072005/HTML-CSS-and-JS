@@ -1,0 +1,11 @@
+.box {
+  width: 500px;
+  height: 500px;
+  border: 4px double darkorchid;
+  background-image: url(./image/corgi.jpg);
+  /* khi sử dụng background-size: contain => ảnh sẽ vừa khung hình, giữ nguyên tỉ lệ ảnh nhưng ảnh sẽ bị lặp lại để vừa khung hình */
+  background-size: contain;
+  /* ảnh vừa khớp khung hình, giữ nguyên tỉ lệ ảnh (không bị méo), có thể mất 1 phần ảnh nhưng không lặp lại */
+  background-size: cover;
+  background-size: 200px;
+}

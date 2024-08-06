@@ -1,0 +1,11 @@
+h1 ~ h3 {
+  color: salmon;
+}
+
+div ~ div {
+  color: brown;
+}
+
+[href] {
+  font-size: 30px;
+}

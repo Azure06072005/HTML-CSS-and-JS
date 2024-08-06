@@ -1,0 +1,65 @@
+/* Khai báo toàn trang */
+html {
+  --box-height: 120px;
+  --box-color: rgb(0, 126, 128);
+  --box-margin-bot: 10px;
+}
+
+/* .box1 {
+  height: 100px;
+  background-color: var(--box-color);
+  margin-bottom: 10px;
+}
+
+.box2 {
+  height: 100px;
+  background-color: var(--box-color);
+  margin-bottom: 10px;
+}
+
+.box3 {
+  height: 100px;
+  background-color: var(--box-color);
+  margin-bottom: 10px;
+} */
+
+.box1 {
+  height: var(--box-height);
+  background-color: var(--box-color);
+  margin-bottom: var(--box-margin-bot);
+}
+
+.box2 {
+  height: var(--box-height);
+  background-color: var(--box-color);
+  margin-bottom: var(--box-margin-bot);
+}
+
+.box3 {
+  height: var(--box-height);
+  background-color: var(--box-color);
+  margin-bottom: var(--box-margin-bot);
+  height: 500px;
+}
+
+/* Lưu ý: khai báo trong phần nào thì chỉ có thể áp dụng trong phần đó mà thôi */
+
+.detail {
+  --p-font-size: 30px;
+  /* font-size: 10px;
+  font-size: var(--p-font-size); */
+}
+/* có thể bị ghi đè theo thứ tự ưu tiên */
+.detail span {
+  font-size: var(--p-font-size);
+}
+
+/* Giá trị backup của biến  */
+.content {
+  --backgound-box: red;
+}
+
+.box4 {
+  height: 100px;
+  background-color: var(--backgound-box, purple);
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pseudo-classes trong CSS</title>
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Pseudo-classes trong CSS</h2>
+    <table>
+      <tr>
+        <th>Pseudo-class</th>
+        <th>Description</th>
+        <th>Mô tả</th>
+        <th>Example</th>
+      </tr>
+      <tr>
+        <td>:hover</td>
+        <td>Selects elements when the mouse cursor is over them.</td>
+        <td>Chọn các phần tử khi con trỏ chuột di chuyển qua chúng.</td>
+        <td>a:hover</td>
+      </tr>
+      <tr>
+        <td>:active</td>
+        <td>Selects the active link.</td>
+        <td>Chọn liên kết đang hoạt động.</td>
+        <td>a:active</td>
+      </tr>
+      <tr>
+        <td>:focus</td>
+        <td>Selects the element that has focus.</td>
+        <td>Chọn phần tử có tiêu điểm.</td>
+        <td>input:focus</td>
+      </tr>
+      <tr>
+        <td>:first-child</td>
+        <td>Selects the first child element of its parent.</td>
+        <td>Chọn phần tử con đầu tiên của cha nó.</td>
+        <td>p:first-child</td>
+      </tr>
+      <tr>
+        <td>:last-child</td>
+        <td>Selects the last child element of its parent.</td>
+        <td>Chọn phần tử con cuối cùng của cha nó.</td>
+        <td>p:last-child</td>
+      </tr>
+      <tr>
+        <td>:nth-child(n)</td>
+        <td>Selects the nth child element of its parent.</td>
+        <td>Chọn phần tử con thứ n của cha nó.</td>
+        <td>p:nth-child(2)</td>
+      </tr>
+      <tr>
+        <td>:nth-last-child(n)</td>
+        <td>Selects the nth child element from the end of its parent.</td>
+        <td>Chọn phần tử con thứ n từ cuối lên của cha nó.</td>
+        <td>p:nth-last-child(2)</td>
+      </tr>
+      <tr>
+        <td>:nth-of-type(n)</td>
+        <td>Selects the nth element of its type among its siblings.</td>
+        <td>Chọn phần tử thứ n của loại nó trong các anh chị em.</td>
+        <td>p:nth-of-type(2)</td>
+      </tr>
+      <tr>
+        <td>:nth-last-of-type(n)</td>
+        <td>
+          Selects the nth element of its type among its siblings, counting from
+          the end.
+        </td>
+        <td>
+          Chọn phần tử thứ n của loại nó từ cuối lên trong các anh chị em.
+        </td>
+        <td>p:nth-last-of-type(2)</td>
+      </tr>
+      <tr>
+        <td>:first-of-type</td>
+        <td>Selects the first element of its type among its siblings.</td>
+        <td>Chọn phần tử đầu tiên của loại nó trong các anh chị em.</td>
+        <td>p:first-of-type</td>
+      </tr>
+      <tr>
+        <td>:last-of-type</td>
+        <td>Selects the last element of its type among its siblings.</td>
+        <td>Chọn phần tử cuối cùng của loại nó trong các anh chị em.</td>
+        <td>p:last-of-type</td>
+      </tr>
+      <tr>
+        <td>:only-child</td>
+        <td>Selects an element that is the only child of its parent.</td>
+        <td>Chọn phần tử là con duy nhất của cha nó.</td>
+        <td>p:only-child</td>
+      </tr>
+      <tr>
+        <td>:only-of-type</td>
+        <td>
+          Selects an element that is the only one of its type among its
+          siblings.
+        </td>
+        <td>Chọn phần tử duy nhất của loại nó trong các anh chị em.</td>
+        <td>p:only-of-type</td>
+      </tr>
+      <tr>
+        <td>:empty</td>
+        <td>Selects elements that have no children.</td>
+        <td>Chọn các phần tử không có con.</td>
+        <td>div:empty</td>
+      </tr>
+      <tr>
+        <td>:not(selector)</td>
+        <td>Selects elements that do not match the specified selector.</td>
+        <td>Chọn các phần tử không khớp với bộ chọn đã chỉ định.</td>
+        <td>:not(p)</td>
+      </tr>
+      <tr>
+        <td>:checked</td>
+        <td>Selects every checked &lt;input&gt; element.</td>
+        <td>Chọn mỗi phần tử &lt;input&gt; đã chọn.</td>
+        <td>input:checked</td>
+      </tr>
+      <tr>
+        <td>:disabled</td>
+        <td>Selects every disabled &lt;input&gt; element.</td>
+        <td>Chọn mỗi phần tử &lt;input&gt; bị vô hiệu hóa.</td>
+        <td>input:disabled</td>
+      </tr>
+      <tr>
+        <td>:enabled</td>
+        <td>Selects every enabled &lt;input&gt; element.</td>
+        <td>Chọn mỗi phần tử &lt;input&gt; được kích hoạt.</td>
+        <td>input:enabled</td>
+      </tr>
+    </table>
+  </body>
+</html>

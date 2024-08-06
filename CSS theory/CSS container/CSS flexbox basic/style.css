@@ -1,0 +1,16 @@
+* {
+  font-size: 1.5rem;
+}
+
+.container {
+  display: inline-flex;
+  /* nếu để display: flex thì khổi container sẽ là một block */
+  /* nếu để display: inline-flex thì khối container sẽ là một inline-flex */
+  background-color: cyan;
+  /* các phần tử cách nhau 40px */
+  gap: 40px;
+}
+
+.box {
+  background-color: blue;
+}
