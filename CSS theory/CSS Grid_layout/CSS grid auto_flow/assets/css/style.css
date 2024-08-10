@@ -1,0 +1,20 @@
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.container {
+  gap: 2px;
+  display: grid;
+  /* mặc định hướng các item là row */
+  /* grid-auto-flow: row; */
+  /* số cột mặc định là 1 nên chỉ cần chỉ định số cột  */
+  /* grid-template-columns: repeat(5, 100px); */
+
+  /* chuyển hướng sang col */
+  grid-auto-flow: column;
+  /* chỉ định số hàng */
+  grid-template-rows: repeat(5, 100px);
+}

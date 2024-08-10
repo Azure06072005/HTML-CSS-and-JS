@@ -1,0 +1,47 @@
+.box1,
+.box4,
+.box5 {
+  background: aqua;
+}
+
+.box2,
+.box3 {
+  background: blue;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  /* display: inline-grid; */
+  /* giá trị mặc định của cột và hàng trong grid */
+  /* grid-template-columns: auto;
+  grid-template-rows: auto; */
+  /* grid-template-columns: 100px 200px; */
+  /* nếu muốn cột còn lại chiếm hết phần còn lại */
+  /* grid-template-columns: 100px calc(100% - 100px); */
+  /* grid-template-rows: 50px 100px 50px; */
+  /* Gap */
+  /* Quy định gap dòng */
+  /* grid-row-gap: 5px; */
+  /* Quy đinh gap cột */
+  /* grid-column-gap: 10px; */
+  /* viết tắt */
+  /* gap: 10px 20px; */
+  /* repeat */
+  /* grid-template-columns: 100px repeat(4, 50px); */
+  /* grid-template-rows: 50px repeat(4, 100px); */
+  /* CHIA THEO TRỌNG SỐ */
+  /* grid-template-columns: 1fr 2fr 1fr; */
+  /* grid-template-rows: 1fr 2fr 1fr; */
+  /* GIÁ TRỊ AUTO */
+  /* grid-template-columns: 100px auto; */
+  /* grid-row: 50px auto; */
+  grid-template-columns: minmax(150px, 300px) minmax(200px, auto);
+  grid-template-rows: repeat(2, minmax(50px, 80px));
+  grid-auto-rows: 50px;
+}

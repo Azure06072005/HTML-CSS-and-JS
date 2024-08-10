@@ -1,0 +1,16 @@
+.container {
+  display: grid;
+  gap: 3px;
+  /* grid-template-columns: repeat(5, 1fr); */
+  /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.box {
+  display: flex;
+  background-color: blue;
+  border-radius: 5px;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,101 @@
+.box1,
+.box4,
+.box5 {
+  background-color: aqua;
+}
+
+.box2,
+.box3 {
+  background-color: fuchsia;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: grid;
+  gap: 5px 10px;
+  grid-template-areas:
+    "header header header"
+    "menu content sidebar"
+    "menu footer footer";
+}
+
+.box1 {
+  grid-area: header;
+}
+
+.box2 {
+  grid-area: menu;
+}
+
+.box3 {
+  grid-area: content;
+}
+
+.box4 {
+  grid-area: sidebar;
+}
+
+.box5 {
+  grid-area: footer;
+}
+
+.bin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.can {
+  margin-top: 100px;
+  display: grid;
+  gap: 5px 10px;
+  grid-template-areas:
+    "square1 square1 rectangle3 rectangle3 rectangle3"
+    "square1 square1 square2 square2 block1"
+    "rectangle2 rectangle2 square2 square2 block2";
+}
+
+.bin1,
+.bin4,
+.bin5 {
+  background-color: indianred;
+}
+
+.bin2,
+.bin3 {
+  background-color: lightskyblue;
+}
+
+.bin1 {
+  grid-area: square1;
+}
+
+.bin2 {
+  grid-area: rectangle2;
+}
+
+.bin3 {
+  grid-area: rectangle3;
+  background-color: blueviolet;
+}
+
+.bin4 {
+  grid-area: square2;
+  background-color: dodgerblue;
+}
+
+.bin5 {
+  grid-area: block1;
+  background-color: darkturquoise;
+}
+
+.bin6 {
+  grid-area: block2;
+  background-color: lightpink;
+}
