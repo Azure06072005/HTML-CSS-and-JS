@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>
+      93. CSS BEM Giải Thích Chi Tiết và Ví dụ Thực Tế - Học BEM CSS từ Cơ Bản
+      Đến Chuyên Nghiệp
+    </title>
+  </head>
+  <body>
+    <a href="https://www.youtube.com/watch?v=ClS637DzOlE"
+      >93. CSS BEM Giải Thích Chi Tiết và Ví dụ Thực Tế - Học BEM CSS từ Cơ Bản
+      Đến Chuyên Nghiệp
+    </a>
+    <!-- cú pháp BEM -->
+    <!-- 1. Block -->
+    <!-- .header, .footer, .card, .card-list... -->
+    <!-- 2. Element -->
+    <!-- block__element: footer__logo, footer__desc, card__image -->
+    <!-- 3. Modifier -->
+    <!-- Block__element--modifier: card__image--large, card__image--small -->
+    <!-- Block--modifier: .modal--custom, .modal--fullscreen -->
+    <!-- TH1 -->
+    <div class="card">
+      <div class="card__image"></div>
+      <div class="card__title"></div>
+      <div class="card__desc"></div>
+      <div class="card__button">
+        <div class="card__button--primary"></div>
+        <div class="card__button--secondary"></div>
+      </div>
+    </div>
+    <!-- TH2: trường hợp thẻ có nhiều phần tử con -->
+    <div class="card-list">
+      <!-- item 1 -->
+      <div class="card-item">
+        <div class="card-item__image"></div>
+        <div class="card-item__title"></div>
+        <div class="card-item__desc"></div>
+        <div class="card-item__button">
+          <div class="card-item__button--primary"></div>
+          <div class="card-item__button--secondary"></div>
+        </div>
+      </div>
+      <!-- item 2 -->
+      <div class="card-item">
+        <div class="card-item__image"></div>
+        <div class="card-item__title"></div>
+        <div class="card-item__desc"></div>
+        <div class="card-item__button">
+          <div class="card-item__button--primary"></div>
+          <div class="card-item__button--secondary"></div>
+        </div>
+      </div>
+      <!-- item 3 -->
+      <div class="card-item">
+        <div class="card-item__image"></div>
+        <div class="card-item__title"></div>
+        <div class="card-item__desc"></div>
+        <div class="card-item__button">
+          <div class="card-item__button--primary"></div>
+          <div class="card-item__button--secondary"></div>
+        </div>
+      </div>
+      <!-- item 4 -->
+      <div class="card-item">
+        <div class="card-item__image"></div>
+        <div class="card-item__title"></div>
+        <div class="card-item__desc"></div>
+        <div class="card-item__button">
+          <div class="card-item__button--primary"></div>
+          <div class="card-item__button--secondary"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
