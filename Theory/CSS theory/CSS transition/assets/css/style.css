@@ -1,0 +1,23 @@
+.btn {
+  width: 200px;
+  height: 40px;
+  background-color: greenyellow;
+  border: none;
+  cursor: pointer;
+  /* thời gian thay đổi trạng thái */
+  transition-duration: 1s;
+  /* xác định thuộc tính CSS áp dụng transition */
+  transition-property: background-color;
+  transition-property: all;
+  /* xác định thời gian trễ trước khi Transition bắt đầu */
+  transition-delay: 3s;
+  /* xác định cách thay đổi xảy ra theo thời gian */
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  /* transition shorthand */
+  transition: all ease-in 1s 3s;
+}
+
+.btn:hover {
+  color: yellow;
+  background-color: darkcyan;
+}
